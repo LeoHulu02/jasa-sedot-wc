@@ -1,0 +1,26 @@
+@config "../tailwind.config.ts";
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f8fbff;
+  color: #0f172a;
+}
+
+::selection {
+  background: #bfdbfe;
+  color: #07163a;
+}
+
+.focus-ring {
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600;
+}
