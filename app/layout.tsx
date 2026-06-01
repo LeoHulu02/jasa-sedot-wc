@@ -11,6 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bersihtuntas.id"),
+  applicationName: "BersihTuntas",
   title: {
     default: "BersihTuntas | Sedot WC Profesional 24 Jam",
     template: "%s | BersihTuntas"
@@ -27,31 +28,32 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "BersihTuntas" }],
   creator: "BersihTuntas",
+  alternates: {
+    canonical: "/"
+  },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://bersihtuntas.id",
+    url: "/",
     siteName: "BersihTuntas",
-    title: "BersihTuntas | Sedot WC Profesional",
+    title: "BersihTuntas | Sedot WC Profesional 24 Jam",
     description:
-      "Layanan sedot WC cepat, bersih, dan profesional. Siap melayani rumah, kantor, restoran, pabrik, dan lingkungan Anda.",
+      "Layanan sedot WC cepat, bersih, dan profesional. Siap melayani rumah, kantor, restoran, pabrik, dan area Jabodetabek.",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1708577580884-e23b50d4a205?auto=format&fit=crop&w=1200&q=85",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Armada layanan sedot WC profesional BersihTuntas"
+        alt: "BersihTuntas - Sedot WC Profesional 24 Jam"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "BersihTuntas | Sedot WC Profesional",
+    title: "BersihTuntas | Sedot WC Profesional 24 Jam",
     description:
-      "Layanan sedot WC cepat, bersih, dan profesional untuk rumah, kantor, restoran, dan industri.",
-    images: [
-      "https://images.unsplash.com/photo-1708577580884-e23b50d4a205?auto=format&fit=crop&w=1200&q=85"
-    ]
+      "Layanan sedot WC cepat, bersih, dan profesional untuk rumah, kantor, restoran, pabrik, dan area Jabodetabek.",
+    images: ["/twitter-image"]
   },
   robots: {
     index: true,
