@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "BersihTuntas" }],
   creator: "BersihTuntas",
+  verification: {
+    google: "7G8AZP44j6FcDfLbOol-qUmHkZiHIptgyjs7Xbj5Ero"
+  },
   alternates: {
     canonical: "/"
   },
